@@ -6,7 +6,7 @@ public class TestBean {
 
     public  TestBean(String name){
         this.name = name;
-        this.age = 15;
+        this.age = 20;
     }
 
     public String getName() {
