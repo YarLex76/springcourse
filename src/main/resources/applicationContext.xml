@@ -16,4 +16,14 @@
           class="com.example.springboot.L4.ClassicalMusic">
     </bean>
 
+    <bean id="l5"
+          class="com.example.springboot.L5.ClassicalMusic">
+    </bean>
+
+    <bean id="l5MusicPlayer"
+          class="com.example.springboot.L5.MusicPlayer">
+        <constructor-arg ref="l5"/>
+    </bean>
+
+
 </beans>

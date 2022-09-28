@@ -14,7 +14,7 @@ public class MainL4 {
         Music music = context.getBean("l4", Music.class);
         MusicPlayer musicPlayer = new MusicPlayer(music); // мы не создаем объект класса ClassicalMusis
         musicPlayer.playMusic();
-
+        context.close();
 
 
     }
