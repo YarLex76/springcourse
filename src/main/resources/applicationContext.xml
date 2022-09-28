@@ -12,4 +12,8 @@
         <constructor-arg value="Alex"/>
     </bean>
 
+    <bean id="l4"
+          class="com.example.springboot.L4.ClassicalMusic">
+    </bean>
+
 </beans>
