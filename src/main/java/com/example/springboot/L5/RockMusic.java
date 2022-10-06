@@ -1,8 +1,0 @@
-package com.example.springboot.L5;
-
-public class RockMusic implements Music {
-    @Override
-    public String getMusic() {
-        return "2";
-    }
-}

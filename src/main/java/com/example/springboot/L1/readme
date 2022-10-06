@@ -1,0 +1,6 @@
+Первое приложение на Spring
+
+<bean id="L1" // уникальный id
+          class = "com.example.springboot.L1.TestBean">
+           <constructor-arg value="Alexey"/>    // передаст значение в конструктор
+    </bean>

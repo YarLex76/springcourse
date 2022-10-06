@@ -7,23 +7,28 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="testBean"
-          class="com.example.springboot.TestBean">
-        <constructor-arg value="Alex"/>
+    <bean id="L1"
+          class = "com.example.springboot.L1.TestBean">
+
+        <constructor-arg value="Alexey" />
+        <constructor-arg value="25"/>
+
     </bean>
+
+    <bean id="L1a"
+          class = "com.example.springboot.L1.TestBean">
+
+        <constructor-arg value="Roman" />
+        <constructor-arg value="26"/>
+        <constructor-arg value="RF" />
+
+    </bean>
+
 
     <bean id="l4"
           class="com.example.springboot.L4.ClassicalMusic">
     </bean>
 
-    <bean id="l5"
-          class="com.example.springboot.L5.ClassicalMusic">
-    </bean>
-
-    <bean id="l5MusicPlayer"
-          class="com.example.springboot.L5.MusicPlayer">
-        <constructor-arg ref="l5"/>
-    </bean>
 
 
 </beans>
