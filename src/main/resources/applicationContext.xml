@@ -27,13 +27,21 @@
 
     <bean id="l4"
           class="com.example.springboot.L4.ClassicalMusic">
-
     </bean>
 
     <bean id="l4_1"
           class="com.example.springboot.L4.RockMusic">
-
     </bean>
+
+    <bean id="l5_Music"
+          class="com.example.springboot.L5.RockMusic">
+    </bean>
+
+    <bean id="l5_musicPlayer"
+          class="com.example.springboot.L5.MusicPlayer">
+          <constructor-arg ref="l5_Music" />
+    </bean>
+
 
 
 </beans>
