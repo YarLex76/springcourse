@@ -5,9 +5,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MainL4 {
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
-                "applicationContext.xml"
-        );
+        // создаем объект ClassPathXmlApplicationContext , в конструктор передаем файл xml
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
         Music music = context.getBean("l4", Music.class); // создаем объект интерфейса Music с помощью xml файла
                                                                 // т.е какой именно объект будет класик или рок прописано в xml файле

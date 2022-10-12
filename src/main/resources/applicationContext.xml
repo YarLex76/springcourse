@@ -7,6 +7,8 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <context:property-placeholder location="classpath:L6MusicPlayer.properties"/>
+
     <bean id="L1"
           class = "com.example.springboot.L1.TestBean">
 
@@ -40,6 +42,19 @@
     <bean id="l5_musicPlayer"
           class="com.example.springboot.L5.MusicPlayer">
           <constructor-arg ref="l5_Music" />
+    </bean>
+
+    <bean id="l6_Music"
+          class="com.example.springboot.L6.RockMusic">
+    </bean>
+
+    <bean id="l6_musicPlayer"
+          class="com.example.springboot.L6.MusicPlayer">
+        <property name="music" ref="l6_Music" />
+        <property name="playerName"  value = "alexPlayer"/>
+        <property name="volume" value  = "50"/>
+        <property name="color" value="${musicPlayer.color}"/>
+        <property name="musicList" value="${musicPlayer.musicList}"/>
     </bean>
 
 

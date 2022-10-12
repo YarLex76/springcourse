@@ -2,7 +2,7 @@ package com.example.springboot.L5;
 
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
+// создание зависимости в конструкторе и описании зависимости в xml - файле
 /*
     в один бин перередаем другой биня
     в бин MusicPlayer передаем бин (в конструктор) бин Mucic
@@ -19,9 +19,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MainL5 {
     public static void main(String[] args) {
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
-                "applicationContext.xml"
-        );
+        // создаем объект ClassPathXmlApplicationContext , в конструктор передаем файл xml
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
 
         //Music music = context.getBean("l4", Music.class);  - было
