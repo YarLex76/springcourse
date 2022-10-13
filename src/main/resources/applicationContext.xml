@@ -57,6 +57,20 @@
         <property name="musicList" value="${musicPlayer.musicList}"/>
     </bean>
 
+    <bean id="l7_Music"
+          class="com.example.springboot.L7.RockMusic">
+    </bean>
+
+    <bean id="l7_musicPlayer"
+        class="com.example.springboot.L7.MusicPlayer"
+        scope = "prototype">
+        <property name="music" ref="l7_Music" />
+        <property name="playerName"  value = "alexPlayer"/>
+        <property name="volume" value  = "50"/>
+        <property name="color" value="${musicPlayer.color}"/>
+        <property name="musicList" value="${musicPlayer.musicList}"/>
+    </bean>
+
 
 
 </beans>
