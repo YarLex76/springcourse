@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="classpath:L6MusicPlayer.properties"/>
+
+
+    <bean id="l8_Music"
+          class="com.example.springboot.L8.RockMusic"
+          init-method = "initMethod"
+          destroy-method="destroyMethod">
+    </bean>
+
+    <!--<bean id="l8_musicPlayer"
+        class="com.example.springboot.L8.MusicPlayer"
+        scope = "prototype">
+        <property name="music" ref="l8_Music" />
+        <property name="playerName"  value = "alexPlayer"/>
+        <property name="volume" value  = "50"/>
+        <property name="color" value="${musicPlayer.color}"/>
+        <property name="musicList" value="${musicPlayer.musicList}"/>
+    </bean>-->
+
+
+
+</beans>
