@@ -10,6 +10,7 @@ public class MainL8 {
 
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContextL8.xml");
         ClassicalMusic classicalMusic = context.getBean("l8_Music", ClassicalMusic.class);
+        classicalMusic.getIntValue();
         System.out.println(classicalMusic.getMusic());
 
         /*MusicPlayer musicPlayer = context.getBean("l8_musicPlayer", MusicPlayer.class );
