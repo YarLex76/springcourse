@@ -11,9 +11,9 @@
 
 
     <bean id="l8_Music"
-          class="com.example.springboot.L8.ClassicalMusic"
-          init-method = "initMethod"
-          destroy-method="destroyMethod">
+          class="com.example.springboot.L8.ClassicalMusic">
+         <!-- init-method = "initMethod"
+          destroy-method="destroyMethod">-->
     </bean>
 
     <!--<bean id="l8_musicPlayer"
