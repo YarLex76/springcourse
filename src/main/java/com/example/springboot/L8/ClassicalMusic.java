@@ -1,11 +1,15 @@
 package com.example.springboot.L8;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class ClassicalMusic implements Music {
-    public void initMethod (){
-        System.out.println("creating my bean");
+
+    public void initMethod() {
+        log.info("Создание бина");
     }
 
-    public void destroyMethod(){
+    public void destroyMethod() {
         System.out.println("destroying my bean");
     }
 
