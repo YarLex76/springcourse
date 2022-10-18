@@ -1,8 +1,11 @@
 package com.example.springboot.L8;
 
+import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
+@Getter
+
 public class ClassicalMusic implements Music {
 
     public void initMethod() {
@@ -10,7 +13,7 @@ public class ClassicalMusic implements Music {
     }
 
     public void destroyMethod() {
-        System.out.println("destroying my bean");
+        log.info("уничтожения бина");
     }
 
     @Override

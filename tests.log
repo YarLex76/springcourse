@@ -1,0 +1,16 @@
+749  [main] INFO  c.e.springboot.L8.ClassicalMusic - Создание бина
+876  [main] INFO  c.e.springboot.L8.ClassicalMusic - Создание бина
+901  [main] INFO  c.e.springboot.L8.ClassicalMusic - уничтожения бина
+912  [main] INFO  c.e.springboot.L8.ClassicalMusic - Создание бина
+948  [main] INFO  c.e.springboot.L8.ClassicalMusic - уничтожения бина
+913  [main] INFO  c.e.springboot.L8.ClassicalMusic - Создание бина
+827  [main] INFO  c.e.springboot.L8.ClassicalMusic - Создание бина
+832  [main] INFO  com.example.springboot.L8.RockMusic - Создание бина через factory-method
+832  [main] INFO  com.example.springboot.L8.RockMusic - Создание бина
+849  [main] INFO  com.example.springboot.L8.RockMusic - уничтожения бина
+850  [main] INFO  c.e.springboot.L8.ClassicalMusic - уничтожения бина
+814  [main] INFO  c.e.springboot.L8.ClassicalMusic - Создание бина
+820  [main] INFO  com.example.springboot.L8.RockMusic - Создание бина Rock через factory-method
+820  [main] INFO  com.example.springboot.L8.RockMusic - Создание бина Rok
+853  [main] INFO  com.example.springboot.L8.RockMusic - уничтожения бина Rock
+853  [main] INFO  c.e.springboot.L8.ClassicalMusic - уничтожения бина

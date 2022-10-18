@@ -11,20 +11,19 @@
 
 
     <bean id="l8_Music"
-          class="com.example.springboot.L8.ClassicalMusic">
-         <!-- init-method = "initMethod"
-          destroy-method="destroyMethod">-->
+          class="com.example.springboot.L8.ClassicalMusic"
+          init-method = "initMethod"
+          destroy-method="destroyMethod">
     </bean>
 
-    <!--<bean id="l8_musicPlayer"
-        class="com.example.springboot.L8.MusicPlayer"
-        scope = "prototype">
-        <property name="music" ref="l8_Music" />
-        <property name="playerName"  value = "alexPlayer"/>
-        <property name="volume" value  = "50"/>
-        <property name="color" value="${musicPlayer.color}"/>
-        <property name="musicList" value="${musicPlayer.musicList}"/>
-    </bean>-->
+    <bean id="l8_Music1"
+          class="com.example.springboot.L8.RockMusic"
+          factory-method="getRockMusic"
+          init-method = "initMethod"
+          destroy-method="destroyMethod">
+    </bean>
+
+
 
 
 

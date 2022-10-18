@@ -4,14 +4,20 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class RockMusic implements Music {
-    public void initMethod (){
-        log.info("Инициация бина");
+    private RockMusic(){} // создаем приватный конструктор, тем самым не давая создать объект через new
+
+    public static RockMusic getRockMusic(){
+        log.info("Создание бина Rock через factory-method");
+        return new RockMusic();
     }
 
-    public void destroyMethod(){
-        System.out.println("destroying my bean");
+    public void initMethod() {
+        log.info("Создание бина Rock");
     }
 
+    public void destroyMethod() {
+        log.info("уничтожения бина Rock");
+    }
     @Override
     public String getMusic() {
         return "Music: Metallica";
