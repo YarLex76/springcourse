@@ -2,7 +2,7 @@ package com.example.springboot.L9;
 
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-// Spring фннотации
+// Spring аннотации
 /* <context:component-scan base-package="com.example.springboot"/>
     - эта строчка указывает полный путь, где Spring должен сканировать на предмент аннотации @component, для
     последующего создания бина этого класса

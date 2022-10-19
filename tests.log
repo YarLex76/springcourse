@@ -14,3 +14,22 @@
 820  [main] INFO  com.example.springboot.L8.RockMusic - Создание бина Rok
 853  [main] INFO  com.example.springboot.L8.RockMusic - уничтожения бина Rock
 853  [main] INFO  c.e.springboot.L8.ClassicalMusic - уничтожения бина
+726  [main] INFO  c.e.springboot.L10.MusicPlayer - Через конструктор
+829  [main] INFO  c.e.springboot.L10.MusicPlayer - Через сеттер
+758  [main] INFO  c.e.springboot.L10.MusicPlayer - Через конструктор
+816  [main] INFO  c.e.springboot.L10.MusicPlayer - Через сеттер
+816  [main] INFO  c.e.springboot.L10.MusicPlayer - Через странный сеттер
+767  [main] INFO  c.e.springboot.L10.MusicPlayer - Через конструктор
+847  [main] INFO  c.e.springboot.L10.MusicPlayer - Через сеттер
+848  [main] INFO  c.e.springboot.L10.MusicPlayer - Через "странный" сеттер
+745  [main] INFO  c.e.springboot.L10.MusicPlayer - Через конструктор
+823  [main] INFO  c.e.springboot.L10.MusicPlayer - Через "странный" сеттер
+794  [main] INFO  c.e.springboot.L10.MusicPlayer - Через "странный" сеттер
+750  [main] INFO  c.e.springboot.L10.MusicPlayer - Через конструктор
+754  [main] INFO  c.e.springboot.L10.MusicPlayer - Через конструктор
+760  [main] INFO  c.e.springboot.L10.MusicPlayer - Через конструктор
+806  [main] INFO  c.e.springboot.L10.MusicPlayer - Через сеттер
+807  [main] INFO  c.e.springboot.L10.MusicPlayer - Через "странный" сеттер
+752  [main] INFO  c.e.springboot.L10.MusicPlayer - Через конструктор
+838  [main] INFO  c.e.springboot.L10.MusicPlayer - Через сеттер
+841  [main] INFO  c.e.springboot.L10.MusicPlayer - Через "странный" сеттер
