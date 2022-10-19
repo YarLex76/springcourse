@@ -33,3 +33,15 @@
 752  [main] INFO  c.e.springboot.L10.MusicPlayer - Через конструктор
 838  [main] INFO  c.e.springboot.L10.MusicPlayer - Через сеттер
 841  [main] INFO  c.e.springboot.L10.MusicPlayer - Через "странный" сеттер
+773  [main] INFO  c.e.springboot.L10.MusicPlayer - Через конструктор
+834  [main] INFO  c.e.springboot.L10.MusicPlayer - Через сеттер
+835  [main] INFO  c.e.springboot.L10.MusicPlayer - Через "странный" сеттер
+779  [main] INFO  c.e.springboot.L10.MusicPlayer - Через конструктор
+833  [main] INFO  c.e.springboot.L10.MusicPlayer - Через сеттер
+833  [main] INFO  c.e.springboot.L10.MusicPlayer - Через "странный" сеттер
+704  [main] INFO  c.e.springboot.L10.MusicPlayer - Через конструктор
+760  [main] INFO  c.e.springboot.L10.MusicPlayer - Через сеттер
+761  [main] INFO  c.e.springboot.L10.MusicPlayer - Через "странный" сеттер
+779  [main] INFO  c.e.springboot.L11.MusicPlayer - Через конструктор
+700  [main] INFO  c.e.springboot.L11.MusicPlayer - Через конструктор
+849  [main] INFO  c.e.springboot.L11.MusicPlayer - Через конструктор
