@@ -45,3 +45,26 @@
 779  [main] INFO  c.e.springboot.L11.MusicPlayer - Через конструктор
 700  [main] INFO  c.e.springboot.L11.MusicPlayer - Через конструктор
 849  [main] INFO  c.e.springboot.L11.MusicPlayer - Через конструктор
+971  [main] INFO  c.e.springboot.L11.MusicPlayer - Через конструктор
+986  [main] INFO  c.e.springboot.L11.MusicPlayer - Через конструктор
+831  [main] INFO  c.e.springboot.L12.MusicPlayer - Через конструктор
+849  [main] INFO  c.e.springboot.L12.MusicPlayer - Через конструктор
+951  [main] INFO  com.example.springboot.L12.MainL12 - alexPlayer
+953  [main] INFO  com.example.springboot.L12.MainL12 - 60
+983  [main] INFO  com.example.springboot.L12.MainL12 - alexPlayer
+985  [main] INFO  com.example.springboot.L12.MainL12 - 60
+915  [main] INFO  com.example.springboot.L12.MainL12 - alexPlayer
+917  [main] INFO  com.example.springboot.L12.MainL12 - 60
+953  [main] INFO  com.example.springboot.L12.MainL12 - alexPlayer
+955  [main] INFO  com.example.springboot.L12.MainL12 - 60
+883  [main] INFO  c.e.springboot.L12.ClassicalMusic - Бин классикалЬьюзик создался
+946  [main] INFO  com.example.springboot.L12.MainL12 - alexPlayer
+946  [main] INFO  com.example.springboot.L12.MainL12 - 60
+950  [main] INFO  c.e.springboot.L12.ClassicalMusic - Бин классикалЬьюзик уничтожен
+913  [main] INFO  c.e.springboot.L12.ClassicalMusic - Бин классикалЬьюзик создался
+941  [main] INFO  c.example.springboot.L12.RockMusic - Бин классикалЬьюзик создался
+985  [main] INFO  com.example.springboot.L12.MainL12 - alexPlayer
+985  [main] INFO  com.example.springboot.L12.MainL12 - 60
+986  [main] INFO  c.example.springboot.L12.RockMusic - Бин классикалЬьюзик создался
+986  [main] INFO  c.example.springboot.L12.RockMusic - Бин классикалЬьюзик создался
+992  [main] INFO  c.e.springboot.L12.ClassicalMusic - Бин классикалЬьюзик уничтожен
