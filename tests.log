@@ -68,3 +68,35 @@
 986  [main] INFO  c.example.springboot.L12.RockMusic - Бин классикалЬьюзик создался
 986  [main] INFO  c.example.springboot.L12.RockMusic - Бин классикалЬьюзик создался
 992  [main] INFO  c.e.springboot.L12.ClassicalMusic - Бин классикалЬьюзик уничтожен
+830  [main] INFO  c.e.springboot.L13.ClassicalMusic - Бин классикалЬьюзик создался
+932  [main] INFO  com.example.springboot.L13.MainL13 - alexPlayer
+932  [main] INFO  com.example.springboot.L13.MainL13 - 60
+934  [main] INFO  c.e.springboot.L13.ClassicalMusic - Бин классикалЬьюзик уничтожен
+780  [main] INFO  c.e.springboot.L13.ClassicalMusic - Бин классикалЬьюзик создался
+887  [main] INFO  com.example.springboot.L13.MainL13 - alexPlayer
+887  [main] INFO  com.example.springboot.L13.MainL13 - 60
+889  [main] INFO  c.e.springboot.L13.ClassicalMusic - Бин классикалЬьюзик уничтожен
+789  [main] INFO  c.e.springboot.L13.ClassicalMusic - Бин классикалЬьюзик создался
+824  [main] INFO  c.e.springboot.L13.ClassicalMusic - Бин классикалЬьюзик уничтожен
+794  [main] INFO  c.e.springboot.L13.ClassicalMusic - Бин классикалЬьюзик создался
+826  [main] INFO  c.e.springboot.L13.ClassicalMusic - Бин классикалЬьюзик уничтожен
+895  [main] INFO  c.e.springboot.L13.ClassicalMusic - Бин классикалЬьюзик создался
+1007 [main] INFO  com.example.springboot.L13.MainL13 - alexPlayer
+1007 [main] INFO  com.example.springboot.L13.MainL13 - 60
+1009 [main] INFO  c.e.springboot.L13.ClassicalMusic - Бин классикалЬьюзик уничтожен
+837  [main] INFO  c.e.springboot.L13.ClassicalMusic - Бин классикалЬьюзик создался
+929  [main] INFO  com.example.springboot.L13.MainL13 - alexPlayer
+930  [main] INFO  com.example.springboot.L13.MainL13 - 60
+933  [main] INFO  c.e.springboot.L13.ClassicalMusic - Бин классикалЬьюзик уничтожен
+767  [main] INFO  c.e.springboot.L13.ClassicalMusic - Бин классикалЬьюзик создался
+861  [main] INFO  com.example.springboot.L13.MainL13 - alexPlayer
+861  [main] INFO  com.example.springboot.L13.MainL13 - 60
+863  [main] INFO  c.e.springboot.L13.ClassicalMusic - Бин классикалЬьюзик уничтожен
+747  [main] INFO  c.e.springboot.L13.ClassicalMusic - Бин классикалЬьюзик создался
+888  [main] INFO  com.example.springboot.L13.MainL13 - alexPlayer
+888  [main] INFO  com.example.springboot.L13.MainL13 - 60
+901  [main] INFO  c.e.springboot.L13.ClassicalMusic - Бин классикалЬьюзик уничтожен
+801  [main] INFO  c.e.springboot.L13.ClassicalMusic - Бин классикалЬьюзик создался
+927  [main] INFO  com.example.springboot.L13.MainL13 - alexPlayer
+927  [main] INFO  com.example.springboot.L13.MainL13 - 60
+929  [main] INFO  c.e.springboot.L13.ClassicalMusic - Бин классикалЬьюзик уничтожен
